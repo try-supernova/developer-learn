@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Open99 Docs',
+  tagline: 'Documentation',
+  url: '//docs.open99.ga',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'system41', // Usually your GitHub org/user name.
+  projectName: 'open99-apps', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
