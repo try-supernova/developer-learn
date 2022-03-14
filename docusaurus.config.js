@@ -20,7 +20,7 @@ module.exports = {
       ],
       items: [
         {
-          to: 'docs/doc1',
+          to: 'docs/md-guide',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -40,11 +40,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'docs/md-guide',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'docs/repository',
             },
           ],
         },
@@ -78,7 +78,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/system41/open99-docs/edit/master/docs/',
+            'https://github.com/system41/open99-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -86,12 +86,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        
-      },
-    ],
-  ],
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 };
