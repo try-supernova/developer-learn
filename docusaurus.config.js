@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Open99 Docs',
   tagline: 'Documentation',
-  url: '//docs.open99.ga',
+  url: 'https://docs.open99.ga',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'system41', // Usually your GitHub org/user name.
