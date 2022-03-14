@@ -8,11 +8,16 @@ module.exports = {
   projectName: 'open99-apps', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'open99 docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'open99 logo',
+        src: 'img/logo.png',
       },
+      items: [
+        {
+          type: "docsVersionDropdown"
+        }
+      ],
       links: [
         {
           to: 'docs/doc1',
@@ -83,6 +88,14 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        
       },
     ],
   ],
