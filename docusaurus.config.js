@@ -26,7 +26,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/system41/open99-docs',
           label: 'GitHub',
           position: 'right',
         },
