@@ -18,7 +18,7 @@ module.exports = {
           type: "docsVersionDropdown"
         }
       ],
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
