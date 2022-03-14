@@ -25,7 +25,6 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -50,21 +49,17 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'System41',
           items: [
-            {
+            /*{
               label: 'Blog',
               href: 'https://system41.ga/blog',
-            }
+            }*/
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/system41/open99-docs',
