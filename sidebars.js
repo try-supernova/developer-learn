@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['md-guide'],
-    Apps: ['repository'],
+    Reference: ['md-guide'],
+    Apps: ['repository', 'metadata', 'submitting-app'],
   },
 };

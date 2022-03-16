@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Open99 Docs',
-  tagline: 'Documentation',
+  tagline: 'Simple and easy to read documentation made by the system41 team',
   url: 'https://docs.open99.ga',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -20,7 +20,7 @@ module.exports = {
       ],
       items: [
         {
-          to: 'docs/md-guide',
+          to: 'docs/introduction',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -50,11 +50,15 @@ module.exports = {
         },
         {
           title: 'System41',
-          items: [
-            /*{
+          items: [/*
+            {
+              label: 'About us',
+              href: 'https://system41.ga'
+            },
+            {
               label: 'Blog',
               href: 'https://system41.ga/blog',
-            }*/
+            },*/
           ],
         },
         {
@@ -67,7 +71,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} System41. Built with Docusaurus.`,
+      copyright: 'Built proudly using 🦖 Docusaurus.',
     },
   },
   presets: [
