@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    Reference: ['md-guide'],
-    Apps: ['repository', 'metadata', 'submitting-app'],
+    "Welcome": ["intro"],
+    "Package Manager": ['repository', 'metadata', 'submitting-app'],
+    "Reference": ['md-guide'],
   },
 };
