@@ -1,6 +1,7 @@
 ---
 id: intro
 name: Introduction
+slug: /
 ---
 
 Welcome to the official open-source set of documentation articles for open99. These pages cover a variety of topics, including
