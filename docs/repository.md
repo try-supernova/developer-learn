@@ -1,6 +1,6 @@
 ---
 id: repository
-name: Repository setup
+title: Repository setup
 ---
 
 A repository in open99 is a designated place where applications are downloaded. Think of it as another source in the Package Manager. You can use this other source to install your own applications rather than having to run JavaScript files in the web os, which can be an ineffecient way for your end-users.
