@@ -83,10 +83,12 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/system41/open99-docs/edit/master/',
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false,
       },
     ],
   ],
