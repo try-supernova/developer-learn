@@ -20,9 +20,8 @@ module.exports = {
       ],
       items: [
         {
-          to: '/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          href: 'https://open99.ga',
+          label: 'Website',
           position: 'left',
         },
         {
