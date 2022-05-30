@@ -31,6 +31,10 @@ module.exports = {
           id: "md-guide"
         }
       ]
+    },
+    {
+      type: "doc",
+      id: "license"
     }
   ]
 };

@@ -42,8 +42,8 @@ module.exports = {
               to: '/md-guide',
             },
             {
-              label: 'Second Doc',
-              to: '/repository',
+              label: 'License',
+              to: '/license',
             },
           ],
         },
