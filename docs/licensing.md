@@ -1,5 +1,5 @@
 ---
-id: license
+id: licensing
 title: License
 sidebar_label: License
 ---

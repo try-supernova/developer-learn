@@ -34,7 +34,7 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "license"
+      id: "licensing"
     }
   ]
 };
