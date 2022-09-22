@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               label: 'License',
-              to: '/license',
+              to: '/licensing',
             },
           ],
         },
