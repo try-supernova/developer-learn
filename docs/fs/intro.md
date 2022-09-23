@@ -1,5 +1,5 @@
 ---
-id: fs/intro
+id: fs.intro
 title: Introduction
 ---
 
