@@ -15,13 +15,8 @@ module.exports = {
       },
       items: [
         {
-          type: "docsVersionDropdown"
-        }
-      ],
-      items: [
-        {
           href: 'https://open99.ga',
-          label: 'Website',
+          label: 'Open99',
           position: 'left',
         },
         {
