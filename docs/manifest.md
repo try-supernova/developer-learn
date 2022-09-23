@@ -1,6 +1,6 @@
 ---
 id: manifest
-title: manifest file
+title: Manifest file
 ---
 
 Now that you've uploaded all of your applications, you are on your way to making your repository functional! You only need to configure this one, last thing.
