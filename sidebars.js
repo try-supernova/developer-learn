@@ -6,6 +6,16 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Filesystem",
+      items: [
+        {
+          type: "doc",
+          id: "fs/intro"
+        }
+      ],
+    },
+    {
+      type: "category",
       label: "Package Manager",
       items: [
         {

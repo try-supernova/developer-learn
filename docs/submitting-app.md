@@ -3,4 +3,4 @@ id: submitting-app
 title: Submitting apps
 ---
 
-TODO
+System41 recommends that you

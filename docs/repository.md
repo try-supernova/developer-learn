@@ -5,9 +5,9 @@ title: Repository setup
 
 A repository in open99 is a designated place where applications are downloaded. Think of it as another source in the Package Manager. You can use this other source to install your own applications rather than having to run JavaScript files in the web os, which can be an ineffecient way for your end-users.
 
-:::caution
+:::warning
 
-Currently, non-sudo users cannot install separate repositories other than the preinstalled one preinstalled on open99. You may want to submit an app to the official repository - [Learn more](submitting-app)
+Only non-sudo users cannot install separate repositories other than the preinstalled one preinstalled on open99. You may want to submit an app to the official repository - [Learn more](submitting-app)
 
 :::
 
