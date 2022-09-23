@@ -49,15 +49,15 @@ module.exports = {
         },
         {
           title: 'System41',
-          items: [/*
+          items: [
             {
-              label: 'About us',
-              href: 'https://system41.ga'
+              label: "Web OS Standard",
+              href: "https://system41.github.io/web-os-standard/"
             },
             {
-              label: 'Blog',
-              href: 'https://system41.ga/blog',
-            },*/
+              label: "LITB.js",
+              href: "https://github.com/system41/LITB.js/tree/0.0.1"
+            }
           ],
         },
         {
