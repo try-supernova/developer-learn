@@ -10,7 +10,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          id: "fs.intro"
+          id: "intro"
         }
       ],
     },
