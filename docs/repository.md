@@ -26,4 +26,4 @@ You may consider creating a README file at the root of your project if you're pl
 
 When this is done, begin to upload your applications and pack them into a compressed `.zip` file.
 
-After you've configured this, you may continue to create your `metadata.json` file.
+After you've configured this, you may continue to create your `manifest.json` file.

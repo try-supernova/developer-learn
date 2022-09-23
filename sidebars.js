@@ -14,7 +14,7 @@ module.exports = {
         },
         {
           type: "doc",
-          id: "metadata"
+          id: "manifest"
         },
         {
           type: "doc",
