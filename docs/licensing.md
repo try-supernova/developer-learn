@@ -4,4 +4,4 @@ title: License
 sidebar_label: License
 ---
 
-Until an open-source release of the project, open99 is closed source. You cannot make copies, distribute, or sell the software.
+As of Wednesday, September 28th 2022, Open99 is licensed under the GNU Public License, Version 2.
