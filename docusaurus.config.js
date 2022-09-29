@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'system41', // Usually your GitHub org/user name.
-  projectName: 'open99-apps', // Usually your repo name.
+  projectName: 'open99-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'open99 docs',
