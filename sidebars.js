@@ -34,6 +34,16 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Apps",
+      items: [
+        {
+          type: "doc",
+          id: "app/intro"
+        }
+      ]
+    },
+    {
+      type: "category",
       label: "Reference",
       items: [
         {
