@@ -34,7 +34,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: '/md-guide',
+              to: 'temp/md-guide',
             },
             {
               label: 'License',
