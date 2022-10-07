@@ -6,7 +6,7 @@ slug: /
 
 Welcome to the official open-source set of documentation articles for open99. These pages cover a variety of topics, including
 
-* [Creating an app](#)
+* [Creating an app](app/intro)
 * [Creating your own repository](repository)
 * [Submitting your application to the collection of preinstalled apps](submitting-app)
 * And many more things!

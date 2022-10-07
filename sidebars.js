@@ -20,15 +20,15 @@ module.exports = {
       items: [
         {
           type: "doc",
-          id: "repository",
+          id: "packman/repository",
         },
         {
           type: "doc",
-          id: "manifest"
+          id: "packman/manifest"
         },
         {
           type: "doc",
-          id: "submitting-app",
+          id: "packman/submitting-app",
         }
       ]
     },
@@ -48,7 +48,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          id: "md-guide"
+          id: "temp/md-guide"
         }
       ]
     },
