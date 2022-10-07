@@ -7,8 +7,8 @@ slug: /
 Welcome to the official open-source set of documentation articles for open99. These pages cover a variety of topics, including
 
 * [Creating an app](app/intro)
-* [Creating your own repository](repository)
-* [Submitting your application to the collection of preinstalled apps](submitting-app)
+* [Creating your own repository](packman/repository)
+* [Submitting your application to the collection of preinstalled apps](packman/submitting-app)
 * And many more things!
 
 This documentation is also fully open-sourced on [Github](https://github.com/system41/open99-docs). If you spot any sort of error, please feel free to contribute on the repository. You are also free to add pages if you feel any additions to the documentation are necessary.
