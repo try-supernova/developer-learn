@@ -11,6 +11,10 @@ module.exports = {
         {
           type: "doc",
           id: "fs/intro"
+        },
+        {
+          type: "doc",
+          id: "fs/limits"
         }
       ],
     },
