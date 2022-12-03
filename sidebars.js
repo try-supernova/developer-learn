@@ -11,6 +11,10 @@ module.exports = {
         {
           type: "doc",
           id: "api/41worker"
+        },
+        {
+          type: "doc",
+          id: "api/system41"
         }
       ]
     },
