@@ -6,6 +6,16 @@ module.exports = {
     },
     {
       type: "category",
+      label: "API",
+      items: [
+        {
+          type: "doc",
+          id: "api/41worker"
+        }
+      ]
+    },
+    {
+      type: "category",
       label: "Filesystem",
       items: [
         {
