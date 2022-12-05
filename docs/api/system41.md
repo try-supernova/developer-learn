@@ -13,7 +13,10 @@ and below is what a 41worker operation looks like
 ```js
 sys(operation, args)
 //or
-self.postMessage(operation, args)
+self.postMessage({
+    operation: operation,
+    args: args
+})
 ```
 Therefore the following operations are the same:
 ```js
@@ -23,5 +26,10 @@ and
 ```js
 sys("fs.File", "C:/user/root/README.txt")
 //or
-self.postMessage("fs.File", "C:/user/root/README.txt")
+self.postMessage({
+    operation: "fs.File",
+    args: [
+        "C:/user/root/README.txt"
+    ]
+})
 ```
