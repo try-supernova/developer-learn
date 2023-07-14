@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://docs.open99.ga',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'system41', // Usually your GitHub org/user name.
+  organizationName: 'open99-community', // Usually your GitHub org/user name.
   projectName: 'open99-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -15,12 +15,12 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://open99.ga',
+          href: 'https://open99.pages.dev',
           label: 'Open99',
           position: 'left',
         },
         {
-          href: 'https://github.com/system41/open99-docs',
+          href: 'https://github.com/open99-community/open99-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -43,15 +43,15 @@ module.exports = {
           ],
         },
         {
-          title: 'System41',
+          title: 'open99 community',
           items: [
             {
               label: "Web OS Standard",
-              href: "https://system41.github.io/web-os-standard/"
+              href: "https://open99-community.github.io/web-os-standard/"
             },
             {
               label: "LITB.js",
-              href: "https://github.com/system41/LITB.js/tree/0.0.1"
+              href: "https://github.com/open99-community/LITB.js/tree/0.0.1"
             }
           ],
         },
@@ -60,7 +60,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/system41/open99-docs',
+              href: 'https://github.com/open99-community/open99-docs',
             },
           ],
         },
@@ -76,7 +76,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/system41/open99-docs/edit/main/',
+            'https://github.com/open99-community/open99-docs/edit/main/',
           routeBasePath: "/",
         },
         theme: {

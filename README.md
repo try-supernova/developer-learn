@@ -1,3 +1,3 @@
 # open99-docs
 
-Served with netlify. Uses docusaurus
+open99-docs is a documentation site for open99.
