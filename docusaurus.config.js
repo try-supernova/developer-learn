@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Pluto Learn',
   tagline: 'Simple and easy to read documentation made by the system41 team',
-  url: 'https://developer.pluto.stretch.wtf',
-  baseUrl: '/learn',
+  url: 'https://learn.d.pluto.stretch.wtf',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'use-pluto', // Usually your GitHub org/user name.
   projectName: 'pluto-learn', // Usually your repo name.

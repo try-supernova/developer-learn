@@ -7,7 +7,7 @@ permalink: /
 
 Welcome to the official open-source set of developer documentation articles for pluto. These pages cover a variety of topics, including
 
-* [Creating an app](app-runtime/index)
+* [Creating an app](api/41worker)
 * [Creating your own repository](packman/repository)
 * [Submitting your application to the collection of preinstalled apps](packman/submitting-app)
 * And many more things!
