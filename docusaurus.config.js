@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'use-pluto', // Usually your GitHub org/user name.
-  projectName: 'pluto-learn', // Usually your repo name.
+  projectName: 'developer-learn', // Usually your repo name.
   themeConfig: {
     docs: {
       sidebar: {
@@ -30,7 +30,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/use-pluto/pluto-learn',
+          href: 'https://github.com/use-pluto/developer-learn',
           label: 'GitHub',
           position: 'right',
         },
@@ -69,7 +69,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/use-pluto/pluto-learn/edit/main/',
+            'https://github.com/use-pluto/developer-learn/edit/main/',
           routeBasePath: "/",
         },
         theme: {
