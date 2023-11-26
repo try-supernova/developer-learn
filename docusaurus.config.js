@@ -1,26 +1,36 @@
 module.exports = {
-  title: 'Open99 Docs',
+  title: 'Pluto Learn',
   tagline: 'Simple and easy to read documentation made by the system41 team',
-  url: 'https://docs.open99.ga',
+  url: 'https://developers.pluto.stretch.wtf',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'open99-community', // Usually your GitHub org/user name.
-  projectName: 'open99-docs', // Usually your repo name.
+  organizationName: 'use-pluto', // Usually your GitHub org/user name.
+  projectName: 'pluto-learn', // Usually your repo name.
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true
+      }
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'open99 docs',
+      title: 'Pluto Learn',
       logo: {
-        alt: 'open99 logo',
+        alt: 'pluto logo',
         src: 'img/logo.png',
       },
       items: [
         {
-          href: 'https://open99.pages.dev',
-          label: 'Open99',
+          href: 'https://pluto.stretch.wtf',
+          label: 'Pluto',
           position: 'left',
         },
         {
-          href: 'https://github.com/open99-community/open99-docs',
+          href: 'https://github.com/use-pluto/pluto-learn',
           label: 'GitHub',
           position: 'right',
         },
@@ -43,15 +53,11 @@ module.exports = {
           ],
         },
         {
-          title: 'open99 community',
+          title: 'Pluto community',
           items: [
             {
               label: "Web OS Standard",
-              href: "https://open99-community.github.io/web-os-standard/"
-            },
-            {
-              label: "LITB.js",
-              href: "https://github.com/open99-community/LITB.js/tree/0.0.1"
+              href: "https://use-pluto.github.io/web-os-standard/"
             }
           ],
         },
@@ -60,12 +66,12 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/open99-community/open99-docs',
+              href: 'https://github.com/use-pluto/',
             },
           ],
         },
       ],
-      copyright: 'Built proudly using 🦖 Docusaurus.',
+      copyright: 'Pluto Learn is a set of open-source developer documentation articles written by the community.<br>Contributions are welcomed',
     },
   },
   presets: [
@@ -76,7 +82,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/open99-community/open99-docs/edit/main/',
+            'https://github.com/use-pluto/pluto-learn/edit/main/',
           routeBasePath: "/",
         },
         theme: {

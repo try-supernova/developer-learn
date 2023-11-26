@@ -1,6 +1,12 @@
 ---
 id: 41worker
-title: 41worker
+title: Program Runtime
 ---
-The 41worker API is the safest method for applications to interact with the operating system.  
-Essentially, the api runs in a worker where it has no access to the system except for the ‘self.postMessage‘ method and the `sys` method (a shortcut to self.postMessage). This allows for users to allow permissions to the app, as well as allows the system to intercept and sniff api requests. This is useful because, for example, if a program tries to write malicious javascript to a file and then get the user to run it, the user will have to allow for the program to write to a file, and will let the operating system investigate the contents of this file. If the user denies the permission or the operating system recognizes that it is known malware, this attempt willl fail.
+
+The Pluto Kernel bundles a program runtime internally called 41worker.
+It allows for safe execution of untrusted code in a sandboxed environment.
+The Pluto Kernel considers all code that is not part of the kernel itself as untrusted, including programs such as the shell and console host.
+
+Programs are written in JavaScript (or a language that compiles to JavaScript, such as CoffeeScript).
+At the very basic level, the program runtime does not inject any code changing variables except for certain Web APIs.
+Access to these Web APIs is delegated through variable ownership.

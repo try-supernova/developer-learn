@@ -2,11 +2,11 @@ module.exports = {
   mySidebar: [
     {
       type: "doc",
-      id: "intro"
+      id: "index"
     },
     {
       type: "category",
-      label: "API",
+      label: "APIs",
       items: [
         {
           type: "doc",
@@ -14,23 +14,33 @@ module.exports = {
         },
         {
           type: "doc",
-          id: "api/system41"
-        }
+          id: "api/available-webapis"
+        },
+        {
+          type: "category",
+          label: "Filesystem",
+          items: [
+            {
+              type: "doc",
+              id: "fs/intro"
+            },
+            {
+              type: "doc",
+              id: "fs/limits"
+            }
+          ],
+        },
       ]
     },
     {
       type: "category",
-      label: "Filesystem",
+      label: "Platform",
       items: [
         {
           type: "doc",
-          id: "fs/intro"
-        },
-        {
-          type: "doc",
-          id: "fs/limits"
+          "id": "platform/index"
         }
-      ],
+      ]
     },
     {
       type: "category",
@@ -51,18 +61,8 @@ module.exports = {
       ]
     },
     {
-      type: "category",
-      label: "Apps",
-      items: [
-        {
-          type: "doc",
-          id: "app/intro"
-        }
-      ]
-    },
-    {
       type: "doc",
-      id: "licensing"
+      id: "terminology"
     }
   ]
 };

@@ -1,12 +1,13 @@
 ---
-id: intro
+id: index
 title: Introduction
 slug: /
+permalink: /
 ---
 
-Welcome to the official open-source set of documentation articles for open99. These pages cover a variety of topics, including
+Welcome to the official open-source set of developer documentation articles for pluto. These pages cover a variety of topics, including
 
-* [Creating an app](app/intro)
+* [Creating an app](app-runtime/index)
 * [Creating your own repository](packman/repository)
 * [Submitting your application to the collection of preinstalled apps](packman/submitting-app)
 * And many more things!
@@ -19,4 +20,4 @@ Make sure to read the [Code of Conduct](https://github.com/system41/open99-docs/
 
 :::
 
-Additionally, the open99 documentation is built on [Docusaurus](https://docusaurus.io/docs).
+Additionally, Pluto Learn is built with Docusaurus, a static site generator. 

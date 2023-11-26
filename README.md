@@ -1,3 +1,3 @@
-# open99-docs
+# developer-learn
 
-open99-docs is a documentation site for open99.
+developer-learn is a documentation site for pluto developers.
