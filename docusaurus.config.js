@@ -40,19 +40,6 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'temp/md-guide',
-            },
-            {
-              label: 'License',
-              to: '/licensing',
-            },
-          ],
-        },
-        {
           title: 'Pluto community',
           items: [
             {
