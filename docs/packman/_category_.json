@@ -1,0 +1,11 @@
+{
+  "position": 4,
+  "label": "PPR",
+  "link": {
+    "type": "generated-index",
+    "title": "Pluro Package Registry"
+  },
+  "customProps": {
+    "description": "Pluro package registry guide"
+  }
+}
