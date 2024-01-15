@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Pluto Learn',
-  tagline: 'Simple and easy to read documentation made by the system41 team',
+  title: 'Pluto Developer - Learn',
+  tagline: 'Simple and easy to read documentation made by the pluto team',
   url: 'https://learn.d.pluto.stretch.wtf',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,7 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Pluto Learn',
+      title: 'Developer: Learn',
       logo: {
         alt: 'pluto logo',
         src: 'img/logo.png',
@@ -58,7 +58,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: 'Pluto Learn is a set of open-source developer documentation articles written by the community.<br>Contributions are welcomed',
+      copyright: 'Pluto Developer: Learn is a set of open-source developer documentation articles written by the community.<br>Contributions are welcomed',
     },
   },
   presets: [
