@@ -14,6 +14,10 @@ module.exports = {
         },
         {
           type: "doc",
+          id: "api/calls"
+        },
+        {
+          type: "doc",
           id: "api/available-webapis"
         },
         {
