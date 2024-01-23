@@ -3,15 +3,15 @@ id: repository
 title: Repository setup
 ---
 
-A repository in open99 is a designated place where applications are downloaded. Think of it as another source in the Package Manager. You can use this other source to install your own applications rather than having to run JavaScript files in the web os, which can be an ineffecient way for your end-users.
+A repository in Pluto is a designated place where applications are downloaded. Think of it as another source in the Package Manager. You can use this other source to install your own applications rather than having to run JavaScript files in the web os, which can be an ineffecient way for your end-users.
 
 :::warning
 
-Only non-sudo users cannot install separate repositories other than the preinstalled one preinstalled on open99. You may want to submit an app to the official repository - [Learn more](submitting-app)
+Only non-sudo users cannot install separate repositories other than the preinstalled one preinstalled on Pluto. You may want to submit an app to the official repository - [Learn more](submitting-app)
 
 :::
 
-To host your own repository for open99, you must meet the following prerequisite:  
+To host your own repository for Pluto, you must meet the following prerequisite:  
 
 * You must have a server or access to a server  
     * Github and other code-sharing applications are fine

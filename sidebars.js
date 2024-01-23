@@ -1,72 +1,50 @@
 module.exports = {
-  mySidebar: [
-    {
-      type: "doc",
-      id: "index"
-    },
-    {
-      type: "category",
-      label: "APIs",
-      items: [
+    mainSidebar: [
         {
-          type: "doc",
-          id: "api/41worker"
+            type: "doc",
+            id: "index"
         },
         {
-          type: "doc",
-          id: "api/calls"
-        },
-        {
-          type: "doc",
-          id: "api/available-webapis"
-        },
-        {
-          type: "category",
-          label: "Filesystem",
-          items: [
-            {
-              type: "doc",
-              id: "fs/intro"
+            type: "category",
+            label: "Guide",
+            link: {
+                type: "generated-index",
+                title: "Guide",
+                description: "General guide for application developers.",
             },
-            {
-              type: "doc",
-              id: "fs/limits"
-            }
-          ],
+            collapsed: false,
+            items: [
+                "guide/41worker",
+                "guide/calls",
+                "guide/available-webapis",
+                {
+                    type: "category",
+                    label: "Filesystem",
+                    link: {type: "doc", id: "fs/intro"},
+                    items: [
+                        "fs/limits"
+                    ],
+                },
+            ]
         },
-      ]
-    },
-    {
-      type: "category",
-      label: "Platform",
-      items: [
         {
-          type: "doc",
-          "id": "platform/index"
+            type: "category",
+            label: "Package Manager",
+            items: [
+                "packman/repository",
+                "packman/manifest",
+                "packman/submitting-app"
+            ]
+        },
+        {
+            type: "doc",
+            id: "terminology"
         }
-      ]
-    },
-    {
-      type: "category",
-      label: "Package Manager",
-      items: [
+    ],
+    platformSidebar: [
         {
-          type: "doc",
-          id: "packman/repository",
-        },
-        {
-          type: "doc",
-          id: "packman/manifest"
-        },
-        {
-          type: "doc",
-          id: "packman/submitting-app",
+            type: "doc",
+            id: "platform/index"
         }
-      ]
-    },
-    {
-      type: "doc",
-      id: "terminology"
-    }
-  ]
+    ]
 };

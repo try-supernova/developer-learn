@@ -1,10 +1,10 @@
 ---
 id: terminology
-title: Terminology
+title: Concepts and Terminology
 ---
 
 ## 41worker
-Codename for the App Runtime.
+Codename for the Process Runtime.
 
 ## App
 Application usually developed for the Pluto Store.
@@ -20,6 +20,9 @@ Piece of software that can be run on Pluto. This includes apps, libraries, and o
 
 ## Process
 A running instance of a program.
+
+## Host
+Device that runs Pluto.
 
 ## Pluto Package Manager
 A program that manages packages.

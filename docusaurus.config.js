@@ -9,7 +9,7 @@ module.exports = {
   themeConfig: {
     docs: {
       sidebar: {
-        hideable: true
+        hideable: false
       }
     },
     colorMode: {
@@ -25,8 +25,13 @@ module.exports = {
       },
       items: [
         {
+          href: '/platform',
+          label: 'Platform',
+          position: 'left',
+        },
+        {
           href: 'https://pluto.stretch.wtf',
-          label: 'Pluto',
+          label: 'Launch Pluto',
           position: 'left',
         },
         {

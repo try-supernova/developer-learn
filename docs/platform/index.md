@@ -1,6 +1,6 @@
 ---
 id: index
-title: Get Started
+title: Platform
 ---
 
 The Pluto Platform refers to a variety of toolkits that are used for building and deploying Pluto at enterprise-level.  
