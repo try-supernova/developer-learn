@@ -16,7 +16,6 @@ module.exports = {
             items: [
                 "guide/41worker",
                 "guide/calls",
-                "guide/available-webapis",
                 {
                     type: "category",
                     label: "Filesystem",
@@ -25,6 +24,14 @@ module.exports = {
                         "fs/limits"
                     ],
                 },
+                {
+                    type: "category",
+                    label: "Satellite",
+                    link: {type: "doc", id: "guide/satellite/index"},
+                    items: [
+                        "guide/satellite/index",
+                    ]
+                }
             ]
         },
         {
@@ -36,15 +43,16 @@ module.exports = {
                 "packman/submitting-app"
             ]
         },
-        {
-            type: "doc",
-            id: "terminology"
-        }
+        "terminology"
     ],
     platformSidebar: [
+        "platform/index",
         {
-            type: "doc",
-            id: "platform/index"
-        }
+            type: "category",
+            label: "Orbit1",
+            link: {type: "doc", id: "platform/orbit1/index"},
+            items: ["platform/orbit1/index"]
+        },
+        "platform/versioning"
     ]
 };

@@ -48,8 +48,12 @@ module.exports = {
           title: 'Pluto community',
           items: [
             {
-              label: "Web OS Standard",
-              href: "https://use-pluto.github.io/web-os-standard/"
+              label: "Web OS Spec",
+              href: "https://use-pluto.github.io/web-os-spec/"
+            },
+            {
+              label: "Satellite",
+              href: "https://github.com/use-pluto/satellite"
             }
           ],
         },
