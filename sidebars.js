@@ -14,14 +14,19 @@ module.exports = {
             },
             collapsed: false,
             items: [
-                "guide/41worker",
-                "guide/calls",
                 {
                     type: "category",
                     label: "Filesystem",
                     link: {type: "doc", id: "fs/intro"},
                     items: [
-                        "fs/limits"
+                        {
+                            type: "category",
+                            label: "Drivers",
+                            link: {type: "doc", id: "fs/drivers/index"},
+                            items: [
+                                "fs/drivers/idb"
+                            ]
+                        }
                     ],
                 },
                 {
@@ -29,7 +34,8 @@ module.exports = {
                     label: "Satellite",
                     link: {type: "doc", id: "guide/satellite/index"},
                     items: [
-                        "guide/satellite/index",
+                        "guide/41worker",
+                        "guide/calls",
                     ]
                 }
             ]
