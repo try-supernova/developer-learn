@@ -17,14 +17,15 @@ module.exports = {
                 {
                     type: "category",
                     label: "Filesystem",
-                    link: {type: "doc", id: "fs/intro"},
+                    link: {type: "doc", id: "guide/fs/intro"},
                     items: [
                         {
                             type: "category",
                             label: "Drivers",
-                            link: {type: "doc", id: "fs/drivers/index"},
+                            link: {type: "doc", id: "guide/fs/drivers/index"},
                             items: [
-                                "fs/drivers/idb"
+                                "guide/fs/drivers/idb",
+                                "guide/fs/drivers/ram"
                             ]
                         }
                     ],
@@ -53,12 +54,6 @@ module.exports = {
     ],
     platformSidebar: [
         "platform/index",
-        {
-            type: "category",
-            label: "Orbit1",
-            link: {type: "doc", id: "platform/orbit1/index"},
-            items: ["platform/orbit1/index"]
-        },
         "platform/versioning"
     ]
 };

@@ -3,7 +3,7 @@ id: idb
 title: IDB
 ---
 
-The IDB driver provides a way for applications to interact with the [host](/terminology#host)'s IndexedDB API.
+The internal IDB driver provides a way for applications to interact with the host's IndexedDB storage system.
 # Limits
 Unfortunately, hosts limit the amount of data that can be stored in IndexedDB.
 The limit varies per host.
