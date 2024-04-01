@@ -15,19 +15,20 @@ Satellite does not yet allow for custom drivers to be registered.
 However, the following is the interface that a driver must implement.
 ```ts
 declare interface DBDriver {
-    /**
-     * The name of the driver. For example, `IDB`.
-     * This should not be the drive letter.
-     */
-    name: string,
-    write: (path: string, content: FileContentTypes, metadata: FileMetadataType) => Promise<void | Error>,
-    read: (path: string) => Promise<FileContentTypes | Error>,
-    readMetadata: (path: string) => Promise<FileMetadataType | Error>,
-    delete: (path: string) => Promise<void | Error>,
-    mv: (oldPath: string, newPath: string) => Promise<void | Error>,
-    cp: (oldPath: string, newPath: string) => Promise<void | Error>,
-    getFreeSpace: () => Promise<number | Error>,
-    init: () => Promise<void | Error>
+  /**
+   * The name of the driver. For example, `IDB`.
+   * This should not be the drive letter.
+   */
+  name: string,
+  write: (path: string, content: FileContentTypes, metadata?: FileMetadataType) => Promise<void | Error>,
+  read: (path: string) => Promise<FileContentTypes | Error>,
+  readDir: (path: string) => Promise<string[] | Error>,
+  readMetadata: (path: string) => Promise<FileMetadataType | Error>,
+  delete: (path: string) => Promise<void | Error>,
+  mv: (oldPath: string, newPath: string) => Promise<void | Error>,
+  cp: (oldPath: string, newPath: string) => Promise<void | Error>,
+  getFreeSpace: () => Promise<number | Error>,
+  init: () => Promise<void | Error>
 }
 ```
 It is important to mention that *all* of these methods should be implemented for components like Explorer to work.

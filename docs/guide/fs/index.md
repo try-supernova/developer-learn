@@ -15,7 +15,7 @@ Because of this, there is a limit of 26 drives.
 Although filesystem drivers and drives are similarly named, they have two very different functions.
 Filesystem drivers are software components that allow Pluto to communicate with different storage implementations.
 It is also important to note that filesystem drivers and drivers are not related.
-Read more on how to create a filesystem driver [here](/fs/drivers).
+Read more on how to create a filesystem driver [here](/guide/fs/drivers).
 
 # Anatomy of a File
 Files on Pluto consist of three main components:
