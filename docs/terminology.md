@@ -8,6 +8,9 @@ This page aims to clarify some of the words and acronyms used in the documentati
 ### 41worker
 Codename for the Process Runtime.
 
+### 41Render
+Codename for the GUI renderer. This program is the only one responsible for directly drawing the GUI elements to the screen.
+
 ### App
 Application usually developed for the Pluto Store.
 

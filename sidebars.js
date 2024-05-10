@@ -35,10 +35,11 @@ module.exports = {
                     label: "Satellite",
                     link: {type: "doc", id: "guide/satellite/index"},
                     items: [
-                        "guide/41worker",
-                        "guide/calls",
+                        "guide/satellite/41worker",
+                        "guide/satellite/calls",
                     ]
-                }
+                },
+                "guide/design/xui"
             ]
         },
         {
@@ -54,6 +55,19 @@ module.exports = {
     ],
     platformSidebar: [
         "platform/index",
-        "platform/versioning"
+        "platform/versioning",
+        {
+            type: "category",
+            label: "Bundled programs and libraries",
+            description: "On Pluto, you can bundle your applications, programs, and libraries into the Pluto system.\n" +
+                "This allows you to create a seamless experience for your users, who can access your applications directly from the Pluto webtop without any extra online installation required.",
+            items: [
+                "platform/bundled/create",
+            ]
+        }
+    ],
+    xuiSidebar: [
+        "guide/design/index",
+        "guide/design/xui"
     ]
 };
