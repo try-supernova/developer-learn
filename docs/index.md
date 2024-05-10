@@ -13,7 +13,7 @@ You can read our dev blogs [here](https://stretch.wtf/tags#pluto-progress-report
 
 Welcome to the official open-source set of developer documentation articles for Pluto. These pages cover a variety of topics, including
 
-* [Creating an app](guide/41worker)
+* [Creating an app](guide/satellite/41worker)
 * [Creating beautiful GUIs](guide/design/xui)
 * [Using the APIs via Satellite](/guide/satellite)
 * [Deploying Pluto](/platform)
