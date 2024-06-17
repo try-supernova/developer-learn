@@ -16,6 +16,14 @@ module.exports = {
             items: [
                 {
                     type: "category",
+                    label: "Satellite",
+                    link: {type: "doc", id: "guide/satellite/index"},
+                    items: [
+                        "guide/satellite/dialogs",
+                    ]
+                },
+                {
+                    type: "category",
                     label: "Filesystem",
                     link: {type: "doc", id: "guide/fs/intro"},
                     items: [
@@ -30,16 +38,16 @@ module.exports = {
                         }
                     ],
                 },
+                "guide/design/xui",
                 {
                     type: "category",
-                    label: "Satellite",
-                    link: {type: "doc", id: "guide/satellite/index"},
+                    label: "Kernel",
+                    link: {type: "doc", id: "guide/kernel/index"},
                     items: [
-                        "guide/satellite/41worker",
-                        "guide/satellite/calls",
+                        "guide/kernel/41worker",
+                        "guide/kernel/calls",
                     ]
                 },
-                "guide/design/xui"
             ]
         },
         {

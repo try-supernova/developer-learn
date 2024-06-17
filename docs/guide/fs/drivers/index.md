@@ -8,7 +8,7 @@ Pluto internally has a few drivers that are used to interact with the host's sto
 Applications can register their own drivers to only interact with cloud storage systems.
 :::danger
 Due to a current filesystem driver limitation in Pluto,
-files cannot be moved or copied between drives, even if they use the same filesystem driver.
+files cannot be moved or copied between drives, regardless of whether they use the same filesystem driver.
 :::
 # Implementation
 Satellite does not yet allow for custom drivers to be registered.

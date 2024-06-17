@@ -12,6 +12,9 @@ Consider using a source control system such as Git to manage your project.
 Next, run `npm init` to create a new `package.json` file.
 Then, Satellite can be installed via NPM.
 ```bash
-npm init # creates a new package.json file
-npm install @use-pluto/satellite # installs Satellite SDK
+npm install @use-pluto/satellite
 ```
+
+## Building
+Pluto programs can be built using any standard JavaScript/TypeScript/CoffeeScript bundler.
+We recommend using [Webpack](https://webpack.js.org/), [Parcel](https://parceljs.org/), or [Esbuild](https://esbuild.github.io/).
