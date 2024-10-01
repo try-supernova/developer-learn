@@ -20,11 +20,15 @@ declare interface DBDriver {
    * This should not be the drive letter.
    */
   name: string,
+  getName: () => string,
   write: (path: string, content: FileContentTypes, metadata?: FileMetadataType) => Promise<void | Error>,
   read: (path: string) => Promise<FileContentTypes | Error>,
   readDir: (path: string) => Promise<string[] | Error>,
+  mkDir: (path: string) => Promise<string[] | Error>,
   readMetadata: (path: string) => Promise<FileMetadataType | Error>,
   delete: (path: string) => Promise<void | Error>,
+  deleteDir: (path: string) => Promise<void | Error>,
+  exists: (path: string) => Promise<void | Error>,
   mv: (oldPath: string, newPath: string) => Promise<void | Error>,
   cp: (oldPath: string, newPath: string) => Promise<void | Error>,
   getFreeSpace: () => Promise<number | Error>,
@@ -33,9 +37,10 @@ declare interface DBDriver {
 ```
 It is important to mention that *all* of these methods should be implemented for components like Explorer to work.
 Errors should only be thrown if:
-- The driver is not initialized correctly
-    - This is most likely impossible, since the system initializes the driver before any operations can be performed.
-- The path does not exist
+- The driver is not initialized correctly by the system.
+- A path does not exist.
+- Invalid content type is passed to write.
+- The user is unauthenticated.
 
 If a driver does not support an operation, it should simply return void
 (or 0 if the unsupported method is getFreeSpace, etc).

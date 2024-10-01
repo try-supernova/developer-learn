@@ -1,12 +1,13 @@
 ---
 id: calls
-title: Calls
+title: System Calls
 ---
 
-Every program has an ability to interact with other programs by using the process runtime API. An API call is the medium by which processes can interact.
+Every program has an ability to interact with other programs by using the process runtime API. On Pluto, an API call is the medium by which processes can interact.
 
 ## Overview
-All Pluto API calls go through the Kernel. The Kernel will typically then route the call to the appropriate process, which will respond to the kernel with the result of the call. The kernel will then send the result back to the process that made the call.  
+All Pluto API calls go through the Kernel. The Kernel will then route the call to the appropriate process, which will respond to the kernel with the result of the call. The kernel will then send the response back to the process that initiated the call.  
+Therefore, system calls consist of a request and a response.  
 Pluto API calls must contain two things: a payload and a Call ID.  
 
 ![API call](/assets/call-1.png) Image of a process communicating with the main thread through a REPL.

@@ -35,6 +35,34 @@ module.exports = {
                                 "guide/fs/drivers/idb",
                                 "guide/fs/drivers/ram"
                             ]
+                        },
+                        {
+                            type: "category",
+                            label: "Operations",
+                            link: {type: "doc", id: "guide/fs/operations/index"},
+                            items: [
+                                "guide/fs/operations/init",
+                                "guide/fs/operations/read",
+                                "guide/fs/operations/readDir",
+                                "guide/fs/operations/readMetadata",
+                                "guide/fs/operations/write",
+                                "guide/fs/operations/mkDir",
+                                "guide/fs/operations/delete",
+                                "guide/fs/operations/deleteDir",
+                                "guide/fs/operations/exists",
+                                "guide/fs/operations/mv",
+                                "guide/fs/operations/cp",
+                                "guide/fs/operations/getFreeSpace",
+                                "guide/fs/operations/getName",
+                            ]
+                        },
+                        {
+                            type: "category",
+                            label: "Security",
+                            link: {type: "doc", id: "guide/fs/security/index"},
+                            items: [
+                                "guide/fs/security/index"
+                            ]
                         }
                     ],
                 },
@@ -45,7 +73,16 @@ module.exports = {
                     link: {type: "doc", id: "guide/kernel/index"},
                     items: [
                         "guide/kernel/41worker",
-                        "guide/kernel/calls",
+                        {
+                            type: "category",
+                            label: "Communication",
+                            link: {type: "doc", id: "guide/kernel/communication/index"},
+                            items: [
+                                "guide/kernel/communication/calls",
+                                "guide/kernel/communication/streamed-events",
+                            ]
+                        },
+                        "guide/kernel/assembly",
                     ]
                 },
             ]

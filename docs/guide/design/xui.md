@@ -4,10 +4,10 @@ title: XUI
 ---
 
 (eXtensible User Interface)  
-Pluto takes a unique approach at building user interfaces.  
+The XUI Framework is a declarative language for defining user interfaces in Pluto.  
 
 # Purpose
-Pluto leverages XML/XUI (abbreviated onward as XUI), an XML-based language specifically designed for Pluto.
+Pluto leverages XML/XUI Framework (abbreviated onward as XUI), an XML-based language specifically designed for Pluto.
 It allows developers to define the structure and content of UI elements in a human-readable format.
 Similar to HTML for web pages, XUI uses tags and attributes to represent various UI components like buttons, text fields, and windows.  
 
