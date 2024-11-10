@@ -1,9 +1,6 @@
 module.exports = {
     mainSidebar: [
-        {
-            type: "doc",
-            id: "index"
-        },
+        "index",
         {
             type: "category",
             label: "Guide",
@@ -20,6 +17,14 @@ module.exports = {
                     link: {type: "doc", id: "guide/satellite/index"},
                     items: [
                         "guide/satellite/dialogs",
+                        {
+                            "type": "category",
+                            "label": "Network",
+                            link: {type: "doc", id: "guide/satellite/network/index"},
+                            items: [
+                                "guide/satellite/network/index"
+                            ]
+                        }
                     ]
                 },
                 {
