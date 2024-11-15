@@ -24,7 +24,8 @@ module.exports = {
                             items: [
                                 "guide/satellite/network/index"
                             ]
-                        }
+                        },
+                        "guide/satellite/exits",
                     ]
                 },
                 {
