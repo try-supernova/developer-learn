@@ -2,12 +2,12 @@
 id: index
 title: Drivers
 ---
-A filesystem driver is a software component that allows Pluto to communicate with different storage implementations.
+A filesystem driver is a software component that allows Supernova to communicate with different storage implementations.
 In the context of this page, drivers refer to filesystem drivers.  
-Pluto internally has a few drivers that are used to interact with the host's storage systems.
+Supernova internally has a few drivers that are used to interact with the host's storage systems.
 Applications can register their own drivers to only interact with cloud storage systems.
 :::danger
-Due to a current filesystem driver limitation in Pluto,
+Due to a current filesystem driver limitation in Supernova,
 files cannot be moved or copied between drives, regardless of whether they use the same filesystem driver.
 :::
 # Implementation

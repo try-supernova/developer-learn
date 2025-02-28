@@ -110,8 +110,8 @@ module.exports = {
         {
             type: "category",
             label: "Bundled programs and libraries",
-            description: "On Pluto, you can bundle your applications, programs, and libraries into the Pluto system.\n" +
-                "This allows you to create a seamless experience for your users, who can access your applications directly from the Pluto webtop without any extra online installation required.",
+            description: "On Supernova, you can bundle your applications, programs, and libraries into the Supernova system.\n" +
+                "This allows you to create a seamless experience for your users, who can access your applications directly from the Supernova webtop without any extra online installation required.",
             items: [
                 "platform/bundled/create",
             ]

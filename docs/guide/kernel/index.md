@@ -1,15 +1,15 @@
 ---
 id: index
-title: Pluto Kernel
+title: Supernova Kernel
 ---
 
-The Pluto Kernel is the central component of the Pluto operating system.
+The Supernova Kernel is the central component of the Supernova operating system.
 It is responsible for managing processes, handling API calls, and providing a secure environment for running code.\
 
 ## Overview
 The Kernel is not a monolithic entity; it is composed of several smaller components that work together to provide a secure and efficient environment for running code.
-It is also not a Pluto process, but rather a separate piece of software that manages the operating system.
-It is similar to firmware in that it is the lowest level of software that runs on Pluto.  
+It is also not a Supernova process, but rather a separate piece of software that manages the operating system.
+It is similar to firmware in that it is the lowest level of software that runs on Supernova.  
 
 ## Responsibilities
 

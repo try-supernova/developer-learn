@@ -4,17 +4,17 @@ title: XUI
 ---
 
 (eXtensible User Interface)  
-The XUI Framework is a declarative language for defining user interfaces in Pluto.  
+The XUI Framework is a declarative language for defining user interfaces in Supernova.  
 
 # Purpose
-Pluto leverages XML/XUI Framework (abbreviated onward as XUI), an XML-based language specifically designed for Pluto.
+Supernova leverages XML/XUI Framework (abbreviated onward as XUI), an XML-based language specifically designed for Supernova.
 It allows developers to define the structure and content of UI elements in a human-readable format.
 Similar to HTML for web pages, XUI uses tags and attributes to represent various UI components like buttons, text fields, and windows.  
 
 This approach offers several advantages: first, it provides a familiar and declarative way to build interfaces, making development faster and easier.
 Second, XUI separates the UI definition from the application logic, leading to cleaner code and improved maintainability.
 In this sense, XUI is very similar to the JSX/React approach of separating both from each other.
-By using a dedicated design language called Extensive Design for XUI, Pluto ensures a consistent look and feel across applications within the Web OS.
+By using a dedicated design language called Extensive Design for XUI, Supernova ensures a consistent look and feel across applications within the Web OS.
 
 # Implementation
 Although XUI is a declarative method of writing user interfaces, under the hood it uses an imperative system-call structure, available and implemented in [Satellite](/guide/satellite). Satellite uses the 41Render system process to draw these GUI elements to the screen using the DOM renderer.  

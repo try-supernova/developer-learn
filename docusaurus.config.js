@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'Pluto Developer - Learn',
-  tagline: 'Simple and easy to read documentation made by the pluto team',
-  url: 'https://learn.d.pluto.stretch.wtf',
+  title: 'Supernova Developer - Learn',
+  tagline: 'Simple and easy to read documentation made by the SN team',
+  url: 'https://learn.d.supernova.pablogracia.net',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'use-pluto', // Usually your GitHub org/user name.
+  organizationName: 'try-supernova', // Usually your GitHub org/user name.
   projectName: 'developer-learn', // Usually your repo name.
   themeConfig: {
     docs: {
@@ -20,7 +20,7 @@ module.exports = {
     navbar: {
       title: 'Developer: Learn',
       logo: {
-        alt: 'pluto logo',
+        alt: 'supernova logo',
         src: 'img/logo.png',
       },
       items: [
@@ -30,12 +30,12 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://pluto.stretch.wtf',
-          label: 'Launch Pluto',
+          href: 'https://supernova.pablogracia.net',
+          label: 'Supernova',
           position: 'left',
         },
         {
-          href: 'https://github.com/use-pluto/developer-learn',
+          href: 'https://github.com/try-supernova/developer-learn',
           label: 'GitHub',
           position: 'right',
         },
@@ -45,15 +45,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Pluto community',
+          title: 'Supernova community',
           items: [
             {
               label: "Web OS Spec",
-              href: "https://use-pluto.github.io/web-os-spec/"
+              href: "https://try-supernova.github.io/web-os-spec/"
             },
             {
               label: "Satellite",
-              href: "https://github.com/use-pluto/satellite"
+              href: "https://github.com/try-supernova/satellite"
             }
           ],
         },
@@ -62,12 +62,12 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/use-pluto/',
+              href: 'https://github.com/try-supernova/',
             },
           ],
         },
       ],
-      copyright: 'Pluto Developer: Learn is a set of open-source developer documentation articles written by the community.<br>Contributions are welcomed',
+      copyright: 'Supernova Developer: Learn is a set of open-source developer documentation articles written by the community.<br>Contributions are welcomed',
     },
   },
   presets: [
@@ -78,7 +78,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/use-pluto/developer-learn/edit/main/',
+            'https://github.com/try-supernova/developer-learn/edit/main/',
           routeBasePath: "/",
         },
         theme: {

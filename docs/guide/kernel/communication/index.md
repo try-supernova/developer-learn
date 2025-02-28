@@ -3,7 +3,7 @@ id: index
 title: Communication
 ---
 
-Pluto processes may communicate with the kernel in two ways, described below.
+Supernova processes may communicate with the kernel in two ways, described below.
 
 | Name                                                           | Type                       | Compare to... |
 |----------------------------------------------------------------|----------------------------|---------------|
